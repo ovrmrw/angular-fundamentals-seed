@@ -114,7 +114,7 @@
         "component-selector": [
             true,
             "element",
-            "app",
+            "",
             "kebab-case"
         ],
         "use-input-property-decorator": true,
@@ -128,6 +128,13 @@
         "directive-class-suffix": true,
         "no-access-missing-member": true,
         "templates-use-public": true,
-        "invoke-injectable": true
+        "invoke-injectable": true,
+        "interface-name": [
+            false
+        ],
+        "no-consecutive-blank-lines": [
+            true,
+            3
+        ]
     }
 }

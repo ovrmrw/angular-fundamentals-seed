@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms'
 import { BrowserModule } from '@angular/platform-browser'
 
 import { AppComponent } from './app.component'
+import { PassengerDashboardModule } from './passenger-dashboard/passenger-dashboard.module'
+
 
 @NgModule({
   declarations: [
@@ -13,6 +15,7 @@ import { AppComponent } from './app.component'
     BrowserModule,
     CommonModule,
     FormsModule,
+    PassengerDashboardModule,
   ],
   bootstrap: [AppComponent],
 })
